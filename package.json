@@ -1,0 +1,15 @@
+{
+    "name": "monorepo",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "components",
+        "components2",
+        "app"
+    ],
+    "scripts": {
+        "start": "cd components && tsc && yarn workspace app start"
+    },
+    "dependencies": {}
+}
