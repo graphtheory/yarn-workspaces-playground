@@ -9,7 +9,7 @@
         "app"
     ],
     "scripts": {
-        "start": "cd components && tsc && yarn workspace app start"
+        "start": "cd components && tsc && cd ../components2 && tsc && yarn workspace app start"
     },
     "dependencies": {}
 }
